@@ -67,8 +67,8 @@ img {
 	text-align: center; 
 	width: 30%;
 	height: 300px; 
-	background: url('../img/profile-img.jpg'); 
-	background-size: contain;
+	background: url('../img/profile_img.jpeg'); 
+	background-size: 225px 300px;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -94,9 +94,9 @@ img {
 
 /* 이력서 */
 .education{margin-top: 60px;}
-.education > div {text-align: center; padding: 10px; background: #fff; margin: 30px 10px;}
-.education > div.bdt{background: none; border-top: 4px dashed #ccc; padding: 30px 0;}
-.education > div.bdt > div{background: #fff;}
+.education > div {text-align: center; padding: 10px; background: #fff; margin: 30px 10px; border-radius: 50px;}
+.education > div.bdt{background: none; border-top: 4px dashed #ccc; padding: 30px 0; border-radius: 0px;}
+.education > div.bdt > div{background: #fff; border-radius: 50px;}
 .education div h3{font-size: 30px; padding: 5px;}
 
 .education div ul li span{font-size: 20px; padding:5px;}
@@ -137,12 +137,13 @@ margin-top: 10px;
 .resume > div > p{text-align: center; font-size: 30px; padding: 10px; color: #ccc}
 
 .resume .skills ul li {
-	display: inline-block;
-	width: 24.7%;
-	text-align: center;
-	padding: 20px;
-	margin-top: 20px;
-	background: #fff;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 5px;
+    background: #fff;
+    border-radius: 50px;
 }
 .ldBar {
 	position: relative;
@@ -162,7 +163,7 @@ margin-top: 10px;
 
 /* 메인 - 포트폴리오 */
 
-.portfolio-wrap{background: #979797fc;}
+.portfolio-wrap{background: #000;}
 .portfolio-wrap h2{text-align: center; font-size: 50px; padding: 40px; color: #fff; text-decoration:underline;}
 .portfolio{padding: 10px;}
 .portfolio ul{overflow: hidden; max-width: 1200px; margin: 30px auto; padding: 20px;}
@@ -171,7 +172,6 @@ margin-top: 10px;
 .portfolio li > div .thum{text-align: center;}
 .portfolio li > div .thum img{max-height:185px;}
 .portfolio li > div .info{text-align: center; padding: 5px;}
-.portfolio li > div .info h3{}
 .portfolio li > div .info p{color: #888; margin: 10px 0;}
 .portfolio li > div .info span{display: inline-block; width: 35px; height: 35px; border: 1px solid #ccc; border-radius: 50%; line-height: 40px;}
 .portfolio li > div .info span{transition: all 0.3s;}
